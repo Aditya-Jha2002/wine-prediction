@@ -9,8 +9,9 @@ def config(config_path="params.yaml"):
         config = yaml.safe_load(yaml_file)
     return config
 
+
 @pytest.fixture
-def schema(schema_path="schema_in.json"):
-    with open(schema_path) as yaml_file:
-        schema = yaml.safe_load(yaml_file)
+def schema_in(schema_path="schema_in.json"):
+    with open(schema_path) as json_file:
+        schema = json.load(json_file)
     return schema
