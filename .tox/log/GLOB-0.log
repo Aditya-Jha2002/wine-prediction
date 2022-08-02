@@ -18,6 +18,7 @@ warning: check: missing meta-data: if 'author' supplied, 'author_email' should b
 creating src-0.0.1
 creating src-0.0.1/prediction_service
 creating src-0.0.1/src.egg-info
+creating src-0.0.1/tests
 copying files to src-0.0.1...
 copying setup.py -> src-0.0.1
 copying prediction_service/__init__.py -> src-0.0.1/prediction_service
@@ -26,14 +27,21 @@ copying src.egg-info/PKG-INFO -> src-0.0.1/src.egg-info
 copying src.egg-info/SOURCES.txt -> src-0.0.1/src.egg-info
 copying src.egg-info/dependency_links.txt -> src-0.0.1/src.egg-info
 copying src.egg-info/top_level.txt -> src-0.0.1/src.egg-info
+copying tests/__init__.py -> src-0.0.1/tests
+copying tests/conftest.py -> src-0.0.1/tests
+copying tests/test_config.py -> src-0.0.1/tests
 Writing src-0.0.1/setup.cfg
 creating '.tox/dist/src-0.0.1.zip' and adding 'src-0.0.1' to it
 adding 'src-0.0.1'
+adding 'src-0.0.1/tests'
 adding 'src-0.0.1/prediction_service'
 adding 'src-0.0.1/src.egg-info'
 adding 'src-0.0.1/PKG-INFO'
 adding 'src-0.0.1/setup.py'
 adding 'src-0.0.1/setup.cfg'
+adding 'src-0.0.1/tests/conftest.py'
+adding 'src-0.0.1/tests/__init__.py'
+adding 'src-0.0.1/tests/test_config.py'
 adding 'src-0.0.1/prediction_service/__init__.py'
 adding 'src-0.0.1/prediction_service/prediction.py'
 adding 'src-0.0.1/src.egg-info/PKG-INFO'
